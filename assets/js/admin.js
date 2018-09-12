@@ -46,6 +46,8 @@ function displayNavAdmin() {
             clearInterval(id);
             $('#sidenav-overlay').css('display', 'block');
             $('#sidenav-overlay').css('opacity', '1');
+            $('#main_dashboard').css('padding-left', '240px');
+            //$('#main-container').css('padding-left', '240px');
         } else {
             value++;
             $('#slide-out').css('transform', "translateX(" + (value - 100).toString() + "%)");
@@ -64,6 +66,8 @@ function hiddeNavAdmin() {
             clearInterval(id);
             $('#sidenav-overlay').css('display', 'none');
             $('#sidenav-overlay').css('opacity', '0');
+            $('#main_dashboard').css('padding-left', '0');
+            //$('#main-container').css('padding-left', '0');
         } else {
             value++;
             $('#slide-out').css('transform', "translateX(-" + value.toString() + "%)");
