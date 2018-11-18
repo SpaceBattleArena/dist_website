@@ -190,7 +190,7 @@ button.buy-button {
     left: 0;
     width: 49%;
     margin-left: 28%;
-    background-image: url(../../assets/img/booster.png);
+    /*background-image: url("../../assets/img/booster.png");*/
     background-size: contain;
     background-color: transparent;
 }
