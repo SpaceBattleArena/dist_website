@@ -32,7 +32,7 @@
     border-radius: 50%;
     float: unset;
     font-weight: 100;
-    right: 0;
+    right: 25%;
     font-size: unset;
     border: 1px solid white;
     width: 20px;
@@ -44,4 +44,5 @@
 
 .error-block button.close.success {
     background-color: green;
+    right: 0;
 }

@@ -241,12 +241,76 @@ div.cards-list {
     z-index: 13;
 }
 
-div.cards-list img.cards-booster {
+div.cards-list div.booster-cards {
     width: 20%;
     margin-left: 40%;
     height: auto;
     position: fixed;
     margin-top: 10%;
+}
+div.cards-list div.booster-cards img.sprite {
+    position: absolute;
+    top: 2%;
+    width: 52%;
+    margin-left: 25%;
+    height: 45%;
+    display: none;
+}
+    
+div.cards-list div.booster-cards p.name {
+    position: absolute;
+    top: 52%;
+    color: white;
+    left: 20%;
+    width: 63%;
+    font-size: 10px;
+    height: 9%;
+    text-align: center;
+    display: none;
+}
+    
+div.cards-list div.booster-cards p.desc {
+    position: absolute;
+    top: 63%;
+    color: white;
+    left: 20%;
+    width: 63%;
+    height: 24%;
+    font-size: 10px;
+    overflow-y: scroll;
+    display: none;
+}
+    
+div.cards-list div.booster-cards p.pv {
+    position: absolute;
+    top: 86%;
+    color: white;
+    right: 5%;
+    width: 13%;
+    text-align: center;
+    font-size: 15px;
+    display: none;
+}
+
+div.cards-list div.booster-cards p.atk {
+    position: absolute;
+    top: 86%;
+    color: white;
+    left: 5%;
+    width: 14%;
+    text-align: center;
+    font-size: 15px;
+    display: none;
+}
+div.cards-list div.booster-cards p.cost {
+    position: absolute;
+    top: 7%;
+    color: white;
+    left: 4%;
+    width: 14%;
+    text-align: center;
+    font-size: 15px;
+    display: none;
 }
 
 div.cards-list.show {
@@ -575,4 +639,23 @@ div.error.show .text {
     margin-top: -13px;
     color: white;
     font-weight: 400;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 1px;
+    height: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #ef480e; 
+    border-radius: 10px;
 }

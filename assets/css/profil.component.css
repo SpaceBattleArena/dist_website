@@ -325,6 +325,7 @@ section.profil .links .ring p {
 
 .card {
     margin: 10px;
+    background-color: transparent;
 }
 
 .profile__head {}

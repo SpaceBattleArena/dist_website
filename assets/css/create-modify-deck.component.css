@@ -81,6 +81,7 @@ div.zoom-card.show img.card {
     width: 30%;
     margin-left: 35%;
     margin-top: 4%;
+    background-color: transparent;
 }
 
 div.zoom-card.show div.add-remove {
@@ -223,4 +224,163 @@ div.zoom-card.show div.name-block div.corner-bottom-left {
     height: 10px;
     border-bottom: 1px solid #5b769b;
     border-left: 1px solid #5b769b;
+}
+
+img.sprite {
+    position: absolute;
+    top: 2%;
+    width: 48%;
+    margin-left: 21%;
+    height: 46%;
+}
+
+p.name {
+    position: absolute;
+    top: 51%;
+    color: white;
+    left: 20%;
+    width: 63%;
+    font-size: 10px;
+    height: 9%;
+    text-align: center;
+}
+
+p.desc {
+    position: absolute;
+    top: 63%;
+    color: white;
+    left: 23%;
+    width: 56%;
+    height: 28%;
+    font-size: 10px;
+    overflow-y: scroll;
+}
+
+p.pv {
+    position: absolute;
+    top: 86%;
+    color: white;
+    right: 9%;
+    width: 13%;
+    text-align: center;
+}
+
+p.atk {
+    position: absolute;
+    top: 86%;
+    color: white;
+    left: 10%;
+    width: 14%;
+    text-align: center;
+}
+p.cost {
+    position: absolute;
+    top: 7%;
+    color: white;
+    left: 9%;
+    width: 14%;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #ef480e; 
+    border-radius: 10px;
+}
+
+.badge {
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    position: absolute;
+    right: 0;
+    background-color: green;
+    bottom: 0;
+}
+
+.zoom-card img.sprite {
+    top: 9%;
+    margin-left: 42.3%;
+    width: 16.2%;
+    height: 35.8%;
+    border-radius: 10px;
+}
+
+.zoom-card p.name {
+    font-size: 20px;
+    top: 47%;
+    height: 7%;
+    left: 40%;
+    width: 21%;
+}
+
+.zoom-card p.desc {
+    top: 57%;
+    left: 40.7%;
+    width: 19.3%;
+    height: 20%;
+    font-size: 20px;
+}
+
+.zoom-card p.pv {
+    top: 74%;
+    right: 36%;
+    width: 4.5%;
+    height: 8%;
+    font-size: 50px;
+}
+
+.zoom-card p.atk {
+    top: 74%;
+    width: 4.5%;
+    height: 8%;
+    font-size: 50px;
+    left: 36.5%;
+}
+
+.zoom-card p.cost {
+    left: 36%;
+    top: 12%;
+    width: 4.7%;
+    height: 8%;
+    font-size: 50px;
+}
+
+button.delete-button {
+    width: 100%;
+    background-color: #f73131;
+    color: white;
+    min-height: 30px;
+}
+
+button.save-button {
+    width: 100%;
+    min-height: 30px;
+    color: white;
+    background-color: #2d70ff;
+    margin: 10px 0;
+}
+
+button.add-filter-button {
+    width: 100%;
+    min-height: 30px;
+    color: white;
+    background-color: #2d70ff;
+    margin: 10px 0;
 }

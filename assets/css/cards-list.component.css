@@ -97,3 +97,75 @@ div.row.cards-filter div.col.content-button button.button-filter.select {
     color: white;
     font-size: 25px;
 }
+
+img.sprite {
+    position: absolute;
+    top: 2%;
+    width: 48%;
+    margin-left: 21%;
+    height: 46%;
+}
+
+.cards-displayed p.name {
+    position: absolute;
+    top: 51%;
+    color: white;
+    left: 20%;
+    width: 63%;
+    font-size: 10px;
+    height: 9%;
+    text-align: center;
+}
+
+.cards-displayed p.desc {
+    position: absolute;
+    top: 63%;
+    color: white;
+    left: 23%;
+    width: 56%;
+    height: 28%;
+    font-size: 10px;
+    overflow-y: scroll;
+}
+
+.cards-displayed p.pv {
+    position: absolute;
+    top: 86%;
+    color: white;
+    right: 9%;
+    width: 13%;
+    text-align: center;
+}
+
+.cards-displayed p.atk {
+    position: absolute;
+    top: 86%;
+    color: white;
+    left: 10%;
+    width: 14%;
+    text-align: center;
+}
+.cards-displayed p.cost {
+    position: absolute;
+    top: 7%;
+    color: white;
+    left: 9%;
+    width: 14%;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #ef480e; 
+    border-radius: 10px;
+}
